@@ -1,4 +1,4 @@
-﻿package com.jck.service.impl;
+package com.jck.service.impl;
 
 import com.jck.service.SortingService;
 import org.apache.logging.log4j.LogManager;

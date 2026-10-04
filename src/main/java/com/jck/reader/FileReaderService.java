@@ -1,4 +1,4 @@
-﻿package com.jck.reader;
+package com.jck.reader;
 
 import java.util.List;
 

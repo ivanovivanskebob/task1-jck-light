@@ -1,4 +1,4 @@
-﻿package com.jck.service.impl;
+package com.jck.service.impl;
 
 import com.jck.entity.IntegerArray;
 import com.jck.service.StatisticsService;

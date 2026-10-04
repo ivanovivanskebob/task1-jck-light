@@ -1,4 +1,4 @@
-﻿package com.jck.exception;
+package com.jck.exception;
 
 public class DataProcessingException extends RuntimeException {
     public DataProcessingException(String message) {

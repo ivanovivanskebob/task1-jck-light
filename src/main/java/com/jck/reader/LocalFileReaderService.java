@@ -1,4 +1,4 @@
-﻿package com.jck.reader;
+package com.jck.reader;
 
 import com.jck.exception.DataReadingException;
 import org.apache.logging.log4j.LogManager;

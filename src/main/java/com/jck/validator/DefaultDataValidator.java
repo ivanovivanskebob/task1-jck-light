@@ -1,4 +1,4 @@
-﻿package com.jck.validator;
+package com.jck.validator;
 
 import com.jck.util.RegexConstants;
 

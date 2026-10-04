@@ -1,4 +1,4 @@
-﻿package com.jck.util;
+package com.jck.util;
 
 import java.util.regex.Pattern;
 

@@ -1,4 +1,4 @@
-﻿package com.jck;
+package com.jck;
 
 import com.jck.entity.IntegerArray;
 import com.jck.entity.NumberArray;

@@ -1,0 +1,20 @@
+2026-10-05 00:38:09.229 [main] INFO  com.jck.reader.LocalFileReaderService - Successfully read 5 lines from file
+2026-10-05 00:38:09.233 [main] WARN  com.jck.Application - Invalid data format skipped: ﻿1; 2; 3
+2026-10-05 00:38:09.233 [main] WARN  com.jck.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
+2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
+2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
+2026-10-05 00:38:09.236 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
+2026-10-05 00:38:09.236 [main] INFO  com.jck.Application - Min: null, Max: null, Sum: null, Avg: null
+2026-10-05 00:38:09.236 [main] INFO  com.jck.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
+2026-10-05 00:38:09.237 [main] INFO  com.jck.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
+2026-10-05 00:40:12.097 [main] INFO  com.jck.reader.LocalFileReaderService - Successfully read 5 lines from file
+2026-10-05 00:40:12.101 [main] INFO  com.jck.Application - Min: 1, Max: 3, Sum: 6, Avg: 2.0
+2026-10-05 00:40:12.101 [main] WARN  com.jck.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
+2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
+2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
+2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
+2026-10-05 00:40:12.102 [main] INFO  com.jck.Application - Min: null, Max: null, Sum: null, Avg: null
+2026-10-05 00:40:12.103 [main] INFO  com.jck.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
+2026-10-05 00:40:12.103 [main] INFO  com.jck.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0

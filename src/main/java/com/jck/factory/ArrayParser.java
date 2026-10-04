@@ -1,4 +1,4 @@
-﻿package com.jck.factory;
+package com.jck.factory;
 
 import com.jck.entity.NumberArray;
 

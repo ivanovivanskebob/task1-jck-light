@@ -1,9 +1,12 @@
-﻿package com.jck.factory;
+package com.jck.factory;
 
 import com.jck.entity.NumberArray;
 import com.jck.entity.builder.IntegerArrayBuilder;
 import com.jck.exception.InvalidDataFormatException;
 import com.jck.util.RegexConstants;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class IntegerArrayParser extends ArrayParser {
     @Override
@@ -14,17 +17,24 @@ public class IntegerArrayParser extends ArrayParser {
         }
 
         String[] stringParts = line.split(RegexConstants.DELIMITER_REGEX);
-        int[] parsedValues = new int[stringParts.length];
 
-        for (int i = 0; i < stringParts.length; i++) {
-            String part = stringParts[i].trim();
-            if (!part.isEmpty()) {
+        // Filter out empty parts
+        List<Integer> parsedList = new ArrayList<>();
+        for (String part : stringParts) {
+            String trimmedPart = part.trim();
+            if (!trimmedPart.isEmpty()) {
                 try {
-                    parsedValues[i] = Integer.parseInt(part);
+                    parsedList.add(Integer.parseInt(trimmedPart));
                 } catch (NumberFormatException e) {
-                    throw new InvalidDataFormatException("Cannot parse integer from: " + part);
+                    throw new InvalidDataFormatException("Cannot parse integer from: " + trimmedPart);
                 }
             }
+        }
+
+        // Convert List to array
+        int[] parsedValues = new int[parsedList.size()];
+        for (int i = 0; i < parsedList.size(); i++) {
+            parsedValues[i] = parsedList.get(i);
         }
 
         return new IntegerArrayBuilder().setValues(parsedValues).build();

@@ -1,4 +1,4 @@
-﻿package com.jck.service;
+package com.jck.service;
 
 public interface SortingService {
     int[] sortBubble(int[] array);

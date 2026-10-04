@@ -1,4 +1,4 @@
-﻿package com.jck.entity;
+package com.jck.entity;
 
 public class IntegerArray extends NumberArray {
     private final int[] values;

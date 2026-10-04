@@ -1,4 +1,4 @@
-﻿package com.jck.entity.builder;
+package com.jck.entity.builder;
 
 import com.jck.entity.IntegerArray;
 

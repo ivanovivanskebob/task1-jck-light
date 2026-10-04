@@ -1,4 +1,4 @@
-﻿package com.jck.entity;
+package com.jck.entity;
 
 public abstract class NumberArray {
 }

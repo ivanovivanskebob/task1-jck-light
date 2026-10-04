@@ -1,4 +1,4 @@
-﻿package com.jck.exception;
+package com.jck.exception;
 
 public class InvalidDataFormatException extends RuntimeException {
     public InvalidDataFormatException(String message) {
