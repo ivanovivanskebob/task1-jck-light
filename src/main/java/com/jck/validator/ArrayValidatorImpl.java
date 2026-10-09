@@ -4,16 +4,19 @@ import com.jck.util.RegexConstants;
 
 import java.util.regex.Matcher;
 
-public class DefaultDataValidator implements DataValidator {
+public class ArrayValidatorImpl implements ArrayValidator {
     @Override
     public boolean isValid(String line) {
-        if (line == null || line.trim().isEmpty()) {
-            return true; // Empty strings are valid per requirements
+        if (line == null) {
+            return false;
+        }
+        if (line.isBlank()) {
+            return true;
         }
 
         String[] parts = line.split(RegexConstants.DELIMITER_REGEX);
         for (String part : parts) {
-            String trimmedPart = part.trim();
+            String trimmedPart = part.strip();
             if (!trimmedPart.isEmpty()) {
                 Matcher matcher = RegexConstants.VALID_NUMBER_PATTERN.matcher(trimmedPart);
                 if (!matcher.matches()) {

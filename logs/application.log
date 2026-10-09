@@ -1,20 +1,79 @@
-2026-10-05 00:38:09.229 [main] INFO  com.jck.reader.LocalFileReaderService - Successfully read 5 lines from file
-2026-10-05 00:38:09.233 [main] WARN  com.jck.Application - Invalid data format skipped: ﻿1; 2; 3
-2026-10-05 00:38:09.233 [main] WARN  com.jck.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 00:38:09.229 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-05 00:38:09.233 [main] WARN  com.jck.application.Application - Invalid data format skipped: ﻿1; 2; 3
+2026-10-05 00:38:09.233 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
 2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
 2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
 2026-10-05 00:38:09.234 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
 2026-10-05 00:38:09.236 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
-2026-10-05 00:38:09.236 [main] INFO  com.jck.Application - Min: null, Max: null, Sum: null, Avg: null
-2026-10-05 00:38:09.236 [main] INFO  com.jck.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
-2026-10-05 00:38:09.237 [main] INFO  com.jck.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
-2026-10-05 00:40:12.097 [main] INFO  com.jck.reader.LocalFileReaderService - Successfully read 5 lines from file
-2026-10-05 00:40:12.101 [main] INFO  com.jck.Application - Min: 1, Max: 3, Sum: 6, Avg: 2.0
-2026-10-05 00:40:12.101 [main] WARN  com.jck.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 00:38:09.236 [main] INFO  com.jck.application.Application - Min: null, Max: null, Sum: null, Avg: null
+2026-10-05 00:38:09.236 [main] INFO  com.jck.application.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
+2026-10-05 00:38:09.237 [main] INFO  com.jck.application.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
+2026-10-05 00:40:12.097 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-05 00:40:12.101 [main] INFO  com.jck.application.Application - Min: 1, Max: 3, Sum: 6, Avg: 2.0
+2026-10-05 00:40:12.101 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
 2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
 2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
 2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
 2026-10-05 00:40:12.102 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
-2026-10-05 00:40:12.102 [main] INFO  com.jck.Application - Min: null, Max: null, Sum: null, Avg: null
-2026-10-05 00:40:12.103 [main] INFO  com.jck.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
-2026-10-05 00:40:12.103 [main] INFO  com.jck.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
+2026-10-05 00:40:12.102 [main] INFO  com.jck.application.Application - Min: null, Max: null, Sum: null, Avg: null
+2026-10-05 00:40:12.103 [main] INFO  com.jck.application.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
+2026-10-05 00:40:12.103 [main] INFO  com.jck.application.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
+2026-10-05 01:46:05.018 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-05 01:46:05.025 [main] INFO  com.jck.application.Application - Min: 1, Max: 3, Sum: 6, Avg: 2.0
+2026-10-05 01:46:05.025 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 01:46:05.026 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
+2026-10-05 01:46:05.026 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
+2026-10-05 01:46:05.026 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
+2026-10-05 01:46:05.026 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
+2026-10-05 01:46:05.026 [main] INFO  com.jck.application.Application - Min: null, Max: null, Sum: null, Avg: null
+2026-10-05 01:46:05.026 [main] INFO  com.jck.application.Application - Min: 2, Max: 42, Sum: 55, Avg: 18.333333333333332
+2026-10-05 01:46:05.027 [main] INFO  com.jck.application.Application - Min: 5, Max: 15, Sum: 30, Avg: 10.0
+2026-10-05 01:47:24.357 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-05 01:47:24.364 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-05 01:47:24.364 [main] INFO  com.jck.application.Application - Total arrays in repository: 4
+2026-10-05 01:47:24.365 [main] INFO  com.jck.application.Application - Arrays sorted by size:
+2026-10-05 01:47:24.366 [main] INFO  com.jck.application.Application -   array_1 - size: 3, sum: 6
+2026-10-05 01:47:24.366 [main] INFO  com.jck.application.Application -   array_3 - size: 3, sum: 55
+2026-10-05 01:47:24.366 [main] INFO  com.jck.application.Application -   array_4 - size: 3, sum: 30
+2026-10-05 01:47:24.367 [main] INFO  com.jck.application.Application - Arrays sorted by first element:
+2026-10-05 01:47:24.367 [main] INFO  com.jck.application.Application -   array_2 - first element: 0
+2026-10-05 01:47:24.367 [main] INFO  com.jck.application.Application -   array_1 - first element: 1
+2026-10-05 01:47:24.367 [main] INFO  com.jck.application.Application -   array_4 - first element: 5
+2026-10-05 01:47:24.367 [main] INFO  com.jck.application.Application -   array_3 - first element: 11
+2026-10-05 01:47:24.368 [main] INFO  com.jck.application.Application - Arrays with sum > 10: 2
+2026-10-05 01:47:24.368 [main] INFO  com.jck.application.Application - Before modification - sum of array_1: 6
+2026-10-05 01:47:24.368 [main] INFO  com.jck.application.Application - After modification - sum of array_1: 105
+2026-10-09 03:21:02.702 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-09 03:21:02.712 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-09 03:21:02.712 [main] INFO  com.jck.application.Application - Total arrays in repository: 4
+2026-10-09 03:21:02.713 [main] INFO  com.jck.application.Application - Arrays sorted by size:
+2026-10-09 03:21:02.714 [main] INFO  com.jck.application.Application -   array_1 - size: 3, sum: 6
+2026-10-09 03:21:02.714 [main] INFO  com.jck.application.Application -   array_3 - size: 3, sum: 55
+2026-10-09 03:21:02.714 [main] INFO  com.jck.application.Application -   array_4 - size: 3, sum: 30
+2026-10-09 03:21:02.715 [main] INFO  com.jck.application.Application - Arrays sorted by first element:
+2026-10-09 03:21:02.715 [main] INFO  com.jck.application.Application -   array_2 - first element: 0
+2026-10-09 03:21:02.715 [main] INFO  com.jck.application.Application -   array_1 - first element: 1
+2026-10-09 03:21:02.715 [main] INFO  com.jck.application.Application -   array_4 - first element: 5
+2026-10-09 03:21:02.715 [main] INFO  com.jck.application.Application -   array_3 - first element: 11
+2026-10-09 03:21:02.716 [main] INFO  com.jck.application.Application - Arrays with sum > 10: 2
+2026-10-09 03:21:02.716 [main] INFO  com.jck.application.Application - Before modification - sum of array_1: 6
+2026-10-09 03:21:02.716 [main] INFO  com.jck.application.Application - After modification - sum of array_1: 105
+2026-10-09 03:42:42.926 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate sum
+2026-10-09 03:42:42.944 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find min
+2026-10-09 03:42:42.951 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot find max
+2026-10-09 03:42:42.957 [main] WARN  com.jck.service.impl.StatisticsServiceImpl - Array is empty, cannot calculate average
+2026-10-09 03:43:21.419 [main] INFO  com.jck.reader.ArrayReaderImpl - Successfully read 5 lines from file
+2026-10-09 03:43:21.427 [main] WARN  com.jck.application.Application - Invalid data format skipped: 1, 2, x3, 6..5, 77
+2026-10-09 03:43:21.428 [main] INFO  com.jck.application.Application - Total arrays in repository: 4
+2026-10-09 03:43:21.429 [main] INFO  com.jck.application.Application - Arrays sorted by size:
+2026-10-09 03:43:21.429 [main] INFO  com.jck.application.Application -   array_1 - size: 3, sum: 6
+2026-10-09 03:43:21.429 [main] INFO  com.jck.application.Application -   array_3 - size: 3, sum: 55
+2026-10-09 03:43:21.429 [main] INFO  com.jck.application.Application -   array_4 - size: 3, sum: 30
+2026-10-09 03:43:21.430 [main] INFO  com.jck.application.Application - Arrays sorted by first element:
+2026-10-09 03:43:21.430 [main] INFO  com.jck.application.Application -   array_2 - first element: 0
+2026-10-09 03:43:21.430 [main] INFO  com.jck.application.Application -   array_1 - first element: 1
+2026-10-09 03:43:21.430 [main] INFO  com.jck.application.Application -   array_4 - first element: 5
+2026-10-09 03:43:21.430 [main] INFO  com.jck.application.Application -   array_3 - first element: 11
+2026-10-09 03:43:21.431 [main] INFO  com.jck.application.Application - Arrays with sum > 10: 2
+2026-10-09 03:43:21.431 [main] INFO  com.jck.application.Application - Before modification - sum of array_1: 6
+2026-10-09 03:43:21.431 [main] INFO  com.jck.application.Application - After modification - sum of array_1: 105

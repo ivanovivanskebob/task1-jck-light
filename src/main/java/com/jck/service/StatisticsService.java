@@ -2,11 +2,12 @@ package com.jck.service;
 
 import com.jck.entity.IntegerArray;
 
-import java.util.Optional;
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
 
 public interface StatisticsService {
-    Optional<Integer> findMin(IntegerArray array);
-    Optional<Integer> findMax(IntegerArray array);
-    Optional<Integer> calculateSum(IntegerArray array);
-    Optional<Double> calculateAverage(IntegerArray array);
+    OptionalInt findMin(IntegerArray array);
+    OptionalInt findMax(IntegerArray array);
+    OptionalInt calculateSum(IntegerArray array);
+    OptionalDouble calculateAverage(IntegerArray array);
 }

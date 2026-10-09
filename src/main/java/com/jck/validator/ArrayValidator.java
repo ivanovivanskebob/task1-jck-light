@@ -1,5 +1,5 @@
 package com.jck.validator;
 
-public interface DataValidator {
+public interface ArrayValidator {
     boolean isValid(String line);
 }

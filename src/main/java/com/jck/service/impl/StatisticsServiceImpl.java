@@ -6,17 +6,18 @@ import com.jck.service.StatisticsService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Optional;
+import java.util.OptionalDouble;
+import java.util.OptionalInt;
 
 public class StatisticsServiceImpl implements StatisticsService {
     private static final Logger LOGGER = LogManager.getLogger(StatisticsServiceImpl.class);
 
     @Override
-    public Optional<Integer> findMin(IntegerArray array) {
+    public OptionalInt findMin(IntegerArray array) {
         int[] values = array.getValues();
         if (values == null || values.length == 0) {
             LOGGER.warn("Array is empty, cannot find min");
-            return Optional.empty();
+            return OptionalInt.empty();
         }
 
         int min = values[0];
@@ -27,15 +28,15 @@ public class StatisticsServiceImpl implements StatisticsService {
             }
         }
 
-        return Optional.of(min);
+        return OptionalInt.of(min);
     }
 
     @Override
-    public Optional<Integer> findMax(IntegerArray array) {
+    public OptionalInt findMax(IntegerArray array) {
         int[] values = array.getValues();
         if (values == null || values.length == 0) {
             LOGGER.warn("Array is empty, cannot find max");
-            return Optional.empty();
+            return OptionalInt.empty();
         }
 
         int max = values[0];
@@ -46,31 +47,31 @@ public class StatisticsServiceImpl implements StatisticsService {
             }
         }
 
-        return Optional.of(max);
+        return OptionalInt.of(max);
     }
 
     @Override
-    public Optional<Integer> calculateSum(IntegerArray array) {
+    public OptionalInt calculateSum(IntegerArray array) {
         int[] values = array.getValues();
         if(values == null || values.length == 0) {
             LOGGER.warn("Array is empty, cannot calculate sum");
-            return Optional.empty();
+            return OptionalInt.empty();
         }
 
         int sum = 0;
         for (int value : values) {
             sum += value;
         }
-        return Optional.of(sum);
+        return OptionalInt.of(sum);
     }
 
     @Override
-    public Optional<Double> calculateAverage(IntegerArray array) {
+    public OptionalDouble calculateAverage(IntegerArray array) {
 
         int[] values = array.getValues();
         if (values == null || values.length == 0) {
             LOGGER.warn("Array is empty, cannot calculate average");
-            return Optional.empty();
+            return OptionalDouble.empty();
         }
 
         int sum = 0;
@@ -78,6 +79,6 @@ public class StatisticsServiceImpl implements StatisticsService {
             sum += value;
         }
         double average = (double) sum / values.length;
-        return Optional.of(average);
+        return OptionalDouble.of(average);
     }
 }

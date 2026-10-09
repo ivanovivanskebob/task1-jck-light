@@ -2,6 +2,6 @@ package com.jck.reader;
 
 import java.util.List;
 
-public interface FileReaderService {
+public interface ArrayReader {
     List<String> readLines(String filePath);
 }
